@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: rgb(94, 54, 1);
+    background-color: rgb(255, 255, 255);
     font-family: "Newsreader", "sans-serif";  
 }
 
@@ -18,36 +18,4 @@ body {
 :root {
     color: rgb(212, 164, 101);
     color: rgb(0, 0, 0);
-}
-.name {
-    text-align: center;
-    font-size: 50px;
-
-}
-
- .nav-bar {
-    background-color: rgb(142, 142, 252);
- }
- /* .nav-btn {
-    color: white;
-    background-color: rgb(94, 54, 1);
- } */
-
-
-
-.hr {
-    color: rgb(0, 0, 81);
-}
-.p-top {
-    text-align: center;
-    font-size: 35px;
-}
-
-.top-li {
-    display: flex;
-    flex-direction: column;
-}
-
-.about-me {
-    font-size: 30px;
 }
