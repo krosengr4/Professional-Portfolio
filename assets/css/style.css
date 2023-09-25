@@ -11,11 +11,28 @@ body {
     font-family: "Newsreader", "sans-serif";  
 }
 
-.header {
-    display: flex;
-}
-
 :root {
     color: rgb(212, 164, 101);
     color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-head {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.nav-btn{
+    margin: 30px;
+    padding: 25px;
 }
