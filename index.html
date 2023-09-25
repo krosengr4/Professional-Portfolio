@@ -12,22 +12,21 @@
         <header class="header" id="top">
             <section class="short-description">
                 <h1 class="name">Kevin Rosengren</h1>
-                <img class="top-pic" src="./assets/images/Pic-of-me.jpg">
+                <img class="image-padding image-border" id="top-pic" src="./assets/images/Pic-of-me.jpg">
                 <section class="list-head">
                     <p class="p-head">Part Time Student</p>
                     <p class="p-head">Austin, Texas</p>
                     <p class="p-head">Wed Developer</p>
                 </section>
             </section>
-    </header>
             <section class="nav-bar">
                 <nav class="nav-links">
                     <ul class="header-links"> 
                         <li>
-                            <a href="#about-me"><button class="nav-btn">About Me:</button></a>
+                            <a href="#about-me"><button class="nav-btn">About Me</button></a>
                         </li>
                         <li>
-                            <a href="#my-projects"><button class="nav-btn">My Projects:</button></a>
+                            <a href="#my-projects"><button class="nav-btn">My Projects</button></a>
                         </li>
                         <li>
                             <a href="#contact-me"><button class="nav-btn">Contact Me:</button></a>
@@ -38,59 +37,61 @@
         </header>
 
         <hr>
-
-        <!-- About me section where I have a short description about myself -->
-        <section class="about-me-container" id="about-me">
-            <h2 class="abt-me">About Me:</h2>
-                <p class="about-me-p">Howdy! I am Kevin Rosengren, a 23 year old Texan native who loves technology and programming. Both of my 
-                    parents were progammers at IBM for a long time, so the curiosity and passion for technology began at a young age. I am now
-                    enrolled in the University of Texas web developement bootcamp and have really enjoyed and immersed myself in the course. I 
-                    love to learn and acquire new skills and have other hobbies which include baseball, hockey, learning and playing musical instruments,
-                    and getting outdoors whenever I can. I am curious and excited about programming and determined to make web developement and 
-                    programming a career. 
-                </p>
-        </section>
+        <!-- Main tag represents the main sections of the page under the header -->
         <main>
-            <!-- My projects container. Contains my github projects as links, and an image -->
-            <section class= "my-projects-container" id="my-projects">
-                <h2 class="projects">My Projects:</h2>
-                <div class="card" id="weather-dashboard">
-                    <h3>Weather Dashboard</h3>
-                    <a href="https://krosengr4.github.io/Module6-WeatherApp/">Weather Dashboard</a>
-                    <img class="project-picture" src="./assets/images/Weather-Dashboard.png">
-                </div>
+            <!-- About me section where I have a short description about myself -->
+            <section class="about-me-container" id="about-me">
+                <h2 class="abt-me">About Me:</h2>
+                    <p class="about-me-p">Howdy! I am Kevin Rosengren, a 23 year old Texan native who loves technology and programming. Both of my 
+                        parents were progammers at IBM for a long time, so the curiosity and passion for technology began at a young age. I am now
+                        enrolled in the University of Texas web developement bootcamp and have really enjoyed and immersed myself in the course. I 
+                        love to learn and acquire new skills and have other hobbies which include baseball, hockey, learning and playing musical instruments,
+                        and getting outdoors whenever I can. I am curious and excited about programming and determined to make web developement and 
+                        programming a career. 
+                    </p>
+            </section>
+            
+                <!-- My projects container. Contains my github projects as links, and an image -->
+                <section class= "my-projects-container" id="my-projects">
+                    <h2 class="projects">My Projects:</h2>
+                    <div class="card" id="weather-dashboard">
+                        <h3>Weather Dashboard</h3>
+                        <a href="https://krosengr4.github.io/Module6-WeatherApp/">Weather Dashboard</a>
+                        <img class="project-picture" src="./assets/images/Weather-Dashboard.png">
+                    </div>
 
-                <div class="card" id="workday-scheduler">
-                    <h3>Work Day Scheduler</h3>
-                    <a href="https://krosengr4.github.io/WorkDayScheduler/">Work Day Scheduler</a>
-                    <img class="project-picture" src="./assets/images/Workday-scheduler.png">
-                </div>
+                    <div class="card" id="workday-scheduler">
+                        <h3>Work Day Scheduler</h3>
+                        <a href="https://krosengr4.github.io/WorkDayScheduler/">Work Day Scheduler</a>
+                        <img class="project-picture" src="./assets/images/Workday-scheduler.png">
+                    </div>
 
-                <div class="card" id="coding-quiz">
-                    <h3>Coding Quiz</h3>
-                    <a href="https://krosengr4.github.io/Coding-Quiz/">Coding Quiz</a>
-                    <img class="project-picture" id="pic-code-quiz" src="./assets/images/Code-Quiz1.png">
-                    <img class="project-picture" id="pic-code-quiz" src="./assets/images/Code-Quiz2.png">
-                    <img class="project-picture" id="pic-code-quiz" src="./assets/images/Code-Quiz3.png">
-                </div>
+                    <div class="card" id="coding-quiz">
+                        <h3>Coding Quiz</h3>
+                        <a href="https://krosengr4.github.io/Coding-Quiz/">Coding Quiz</a>
+                        <img class="project-picture" id="pic-code-quiz" src="./assets/images/Code-Quiz1.png">
+                        <img class="project-picture" id="pic-code-quiz" src="./assets/images/Code-Quiz2.png">
+                        <img class="project-picture" id="pic-code-quiz" src="./assets/images/Code-Quiz3.png">
+                    </div>
 
-                <div class="card" id="password-generator">
-                    <h3>Password Generator</h3>
-                    <a href="https://krosengr4.github.io/Password-Generator/">Password Generator</a>
-                    <img class="project-picture" src="./assets/images/Password-Generator.png"> 
+                    <div class="card" id="password-generator">
+                        <h3>Password Generator</h3>
+                        <a href="https://krosengr4.github.io/Password-Generator/">Password Generator</a>
+                        <img class="project-picture" src="./assets/images/Password-Generator.png"> 
+                    </div>
+                </section>
+            
+
+            <!-- Contact me container with my email and a link to my github so users can access all of my public repositories -->
+            <section class="contact-me-container" id="contact-me">
+                <h2 class="contact">Contact Me:</h2>
+                <h3 class="gmail">Gmail: </h3>
+                    <p>Rosenkev4@gmail.com</p>
+                <h3 class="github">Github: </h3>
+                    <a href="https://github.com/krosengr4">My Github Account</a>
                 </div>
             </section>
         </main>
-
-        <!-- Contact me container with my email and a link to my github so users can access all of my public repositories -->
-        <section class="contact-me-container" id="contact-me">
-            <h2 class="contact">Contact Me:</h2>
-            <h3 class="gmail">Gmail: </h3>
-                <p>Rosenkev4@gmail.com</p>
-            <h3 class="github">Github: </h3>
-                <a href="https://github.com/krosengr4">My Github Account</a>
-            </div>
-        </section>
 
         <footer id="bottom">
             <section>
