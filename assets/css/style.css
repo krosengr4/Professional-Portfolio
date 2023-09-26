@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color:  rgb(110, 84, 26);
     font-family: "Newsreader", "sans-serif";
     margin: 0;  
 }
@@ -26,7 +26,6 @@ h1 {
     background-color: rgb(0, 0, 66);
     padding: 30px;
     color: aqua;
-
 }
 
 .header-links {
@@ -51,6 +50,11 @@ h1 {
     padding: 25px;
     color: aqua;
     background-color: rgb(110, 84, 26);
+    border-radius: 25px;
+}
+.nav-btn:hover {
+    color: aqua;
+    background-color: rgb(6, 51, 1);
 }
 
 #top-pic {
@@ -80,6 +84,13 @@ h1 {
 .project-picture {
     max-width: 400px;
     position: relative;
+}
+
+.footer {
+    background-color: rgb(0, 0, 66);
+    color: aqua;
+    text-align: center;
+    padding: 60px;
 }
 
 
