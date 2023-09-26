@@ -21,7 +21,7 @@ body {
 
 .header-content {
     position: relative;
-    left: 435px
+    left: 482px
 }
 
 #top-pic {
@@ -29,15 +29,13 @@ body {
     max-width: 200px;
     position: relative;
     left: 125px;
+    border:11px solid aqua;
+    border-radius: 85px;
 }
 
 .image-padding {
-    padding: 20px;
+    padding: 11px;
     background-color: rgb(110, 84, 26);
-}
-  
-  .image-border {
-    border: 10px solid aqua;
 }
 
 h1 {
@@ -75,14 +73,26 @@ h1 {
     color: rgb(0, 0, 66);
     background-color: rgb(225, 255, 52);
 }
-
-
-
-  main {
+main {
     display: block;
-    padding: 150px;
+    padding: 30px;
     background-color: rgb(110, 84, 26);
 }
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 74px;
+    text-align: center;
+    color: rgb(0,0, 66);
+    margin: 36px auto;
+    width: 100%;
+}
+
+
 
 .project-picture {
     max-width: 400px;
