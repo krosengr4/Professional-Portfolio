@@ -3,8 +3,8 @@
 # Deployed Application
 [Click here for the Deployed Application!](https://krosengr4.github.io/Professional-Portfolio/)
 
-# Picture of Landing Page 
-
+# Picture of My Portfolio
+ 
 # Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
