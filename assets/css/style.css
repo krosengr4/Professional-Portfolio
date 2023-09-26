@@ -53,8 +53,8 @@ h1 {
     border-radius: 25px;
 }
 .nav-btn:hover {
-    color: aqua;
-    background-color: rgb(6, 51, 1);
+    color: rgb(0, 0, 66);
+    background-color: rgb(225, 255, 52);
 }
 
 #top-pic {
