@@ -62,6 +62,7 @@ h1 {
     left: 420px;
     text-align: center;
 }
+
 .nav-btn{
     padding: 25px;
     color:  rgb(0, 0, 66);
@@ -69,10 +70,12 @@ h1 {
     border-radius: 25px;
     font-size: 20px;
 }
+
 .nav-btn:hover {
     color: rgb(0, 0, 66);
     background-color: rgb(225, 255, 52);
 }
+
 main {
     display: block;
     padding: 30px;
@@ -90,7 +93,25 @@ h2 {
     color: rgb(0,0, 66);
     margin: 36px auto;
     width: 100%;
+    border-style: solid;
+    border-width: 5px;    
 }
+
+.about-me-p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px 280px 280px;
+    border-style: dotted;
+    border-width: thick;
+}
+
+.abt-me-border {
+    border-style: dotted;
+    border-width: thick;
+    border-color: rgb(0,0,66);
+}
+
 
 
 
