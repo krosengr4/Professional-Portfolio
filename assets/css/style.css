@@ -64,18 +64,24 @@ h1 {
     /* Sets padding on all sides to 20px */
     padding: 20px;
     background-color: rgb(110, 84, 26);
-  }
+}
   
   .image-border {
     /* Sets border on all sides */
     border: 10px solid aqua;
-  }
+}
 
   main {
     display: block;
     padding: 150px;
     background-color: rgb(110, 84, 26);
-  }
+}
+
+.project-picture {
+    max-width: 400px;
+    position: relative;
+}
+
 
 
 
