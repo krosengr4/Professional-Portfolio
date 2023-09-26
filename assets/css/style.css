@@ -1,5 +1,6 @@
-* {
-    box-sizing: border-box;
+:root {
+    color: rgb(212, 164, 101);
+    color: rgb(0, 0, 0);
 }
 
 html {
@@ -12,25 +13,41 @@ body {
     margin: 0;  
 }
 
-:root {
-    color: rgb(212, 164, 101);
-    color: rgb(0, 0, 0);
+.header {
+    display: flex;
+    background-color: rgb(0, 0, 66);
+    padding: 30px;
+}
+
+.header-content {
+    position: relative;
+    left: 435px
+}
+
+#top-pic {
+    display: flex;
+    max-width: 200px;
+    position: relative;
+    left: 125px;
+}
+
+.image-padding {
+    padding: 20px;
+    background-color: rgb(110, 84, 26);
+}
+  
+  .image-border {
+    border: 10px solid aqua;
 }
 
 h1 {
     margin: 2px;
     font-size: 70px;
-    text-align: center;
-}
-.header {
-    background-color: rgb(0, 0, 66);
-    padding: 30px;
     color: aqua;
 }
 
 .header-links {
     display: flex;
-    flex-direction: row;
     list-style: none;
 }
 
@@ -38,42 +55,28 @@ h1 {
     text-align: center;
     font-size: 20px;
     margin-top: 0px;
+    color: aqua;
 }
 
 .nav-bar {
     display: flex;
     position: relative;
-    left: 500px;
+    left: 420px;
     text-align: center;
 }
 .nav-btn{
     padding: 25px;
-    color: aqua;
+    color:  rgb(0, 0, 66);
     background-color: rgb(110, 84, 26);
     border-radius: 25px;
+    font-size: 20px;
 }
 .nav-btn:hover {
     color: rgb(0, 0, 66);
     background-color: rgb(225, 255, 52);
 }
 
-#top-pic {
-    display: flex;
-    max-width: 200px;
-    position: absolute;
-    left: 260px;
-}
 
-.image-padding {
-    /* Sets padding on all sides to 20px */
-    padding: 20px;
-    background-color: rgb(110, 84, 26);
-}
-  
-  .image-border {
-    /* Sets border on all sides */
-    border: 10px solid aqua;
-}
 
   main {
     display: block;
