@@ -1,7 +1,7 @@
 # My Professional Portfolio
 
 # Deployed Application
-[Link for Deployed Appplication](https://krosengr4.github.io/Professional-Portfolio/)
+[Click here for the Deployed Application!](https://krosengr4.github.io/Professional-Portfolio/)
 
 # Picture of Application 
 
