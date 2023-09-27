@@ -3,7 +3,8 @@
 # Deployed Application
 [Click here for the Deployed Application!](https://krosengr4.github.io/Professional-Portfolio/)
 
-# Picture of Landing Page 
+# Picture of My Portfolio
+ ![image](https://github.com/krosengr4/Professional-Portfolio/assets/139993281/6b93b261-604c-4c33-ae38-b26315772553)
 
 # Acceptance Criteria
 GIVEN I need to sample a potential employee's previous work
