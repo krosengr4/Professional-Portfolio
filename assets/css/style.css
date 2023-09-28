@@ -267,6 +267,13 @@ h2 {
 }
 
 /* Css that goes with contact me */
+.contact-me-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 69px;
+    align-items: center;
+}
 .gmail {
     display: flex;
     flex-direction: column;
