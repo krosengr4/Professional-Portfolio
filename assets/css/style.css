@@ -282,10 +282,22 @@ h2 {
 }
 
 .gmail-h3 {
-    font-size: 30px;
+    font-size: 40px;
+    color: rgb(0, 0, 66);
 }
 
+.github-h3 {
+    font-size: 40px;
+    color: rgb(0, 0, 66);
+}
 
+.gmail-text {
+    font-size: 25px;
+}
+
+.my-github {
+    font-size: 25px;
+}
 
 
 
@@ -293,10 +305,23 @@ h2 {
 
 /* Css that goes with the footer */
 .footer {
+    font-size: 20px;
     background-color: rgb(0, 0, 66);
     color: aqua;
     text-align: center;
     padding: 60px;
+}
+
+.back-to-top {
+    padding: 15px;
+    color:  rgb(0, 0, 66);
+    background-color: rgb(110, 84, 26);
+    font-size: 15px;
+}
+
+.back-to-top:hover {
+    color: rgb(0, 0, 66);
+    background-color: rgb(225, 255, 52);
 }
 
 /* Media Queries for more responsive page */
