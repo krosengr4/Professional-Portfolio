@@ -198,7 +198,7 @@ h2 {
     position: absolute;
     top: 25px;
     left: 49px;
-    width: 100%;
+    width: 50%;
     height: 84%;
     opacity: 0;
     transition: 1s ease;
@@ -264,6 +264,7 @@ h2 {
     display: flex;
     position: relative;
     top: 36px;
+    align-items: center;
 }
 
 /* Css that goes with contact me */
