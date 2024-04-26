@@ -289,12 +289,24 @@ h2 {
     margin: 0%;
 }
 
+.linkedin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+
 .gmail-h3 {
     font-size: 40px;
     color: rgb(0, 0, 66);
 }
 
 .github-h3 {
+    font-size: 40px;
+    color: rgb(0, 0, 66);
+
+}
+.linkedin-h3 {
     font-size: 40px;
     color: rgb(0, 0, 66);
 }
@@ -307,9 +319,9 @@ h2 {
     font-size: 25px;
 }
 
-
-
-
+.my-linkedin {
+    font-size: 25px;
+}
 
 /* Css that goes with the footer */
 .footer {
